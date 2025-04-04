@@ -30,3 +30,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: site # The folder the action should deploy.
+          token: ${{ secrets.GH_TOKEN }}  # 使用你在 Secrets 中存储的 Token
