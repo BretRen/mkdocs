@@ -39,7 +39,6 @@ theme:
   language: en
   name: material
 markdown_extensions:
-  - markdown_include.include
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
